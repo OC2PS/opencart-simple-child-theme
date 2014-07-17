@@ -1,0 +1,12 @@
+<modification>
+	<id><![CDATA[@tik Simple Child Theme]]></id>
+	<version><![CDATA[1.2]]></version>
+	<vqmver><![CDATA[2.1.7]]></vqmver>
+	<author><![CDATA[OC2PS]]></author>
+	<file name="catalog/view/theme/default/template/common/header.tpl">
+		<operation>
+			<search position="after" error="log"><![CDATA[<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/stylesheet.css" />]]></search>
+			<add><![CDATA[<link rel="stylesheet" type="text/css" href="catalog/view/theme/child/stylesheet/stylesheet.css" />]]></add>
+		</operation>
+	</file>
+</modification>
